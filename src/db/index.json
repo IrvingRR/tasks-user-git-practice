@@ -1,0 +1,28 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Irving Rodriguez",
+        "email": "irving@gmail.com",
+        "password": "irving123"
+      },
+
+      {
+        "id": 2,
+        "name": "Andrea Valtierra",
+        "email": "andrea@gmail.com",
+        "password": "andrea123"
+      }
+    ],
+
+    "tasks": [
+      {
+        "id": 1,
+        "title": "First tasks created",
+        "description": "",
+        "status": "Pending",
+        "userId": 1
+      }
+    ],
+    "profile": { "name": "typicode" }
+}
