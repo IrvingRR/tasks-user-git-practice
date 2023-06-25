@@ -1,7 +1,7 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
 
-  --primary-color: rgb(0, 255, 242);
+  --primary-color: rgb(16, 219, 208);
   --primary-color-hover: rgb(9, 127, 121);
   --background-primary-color: rgb(19, 19, 33);
   --background-secondary-color: rgb(30, 30, 51);

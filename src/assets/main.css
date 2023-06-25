@@ -33,8 +33,36 @@ body {
   outline: none;
   border: 1px solid transparent;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .button:hover {
   background-color: var(--primary-color-hover);
+}
+
+/* Link */
+.link-button {
+  padding: 8px 10px;
+  background-color: var(--primary-color);
+  color: var(--font-color);
+  border-radius: var(--radius);
+  transition: var(--transition);
+  outline: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.link-button:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.link-button.outline {
+  background-color: transparent;
+  border-color: var(--primary-color);
 }
