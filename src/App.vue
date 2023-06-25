@@ -3,8 +3,7 @@
 </script>
 
 <template>
-  <h1>Hello World</h1>
-  <RouterView />
+  <RouterView :is="$route.meta.layout"/>
 </template>
 
 <style scoped>

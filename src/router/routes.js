@@ -1,14 +1,27 @@
+import RootLayout from '@/layouts/RootLayout.vue';
+
 export const routes = [
     {
       path: '/',
       name: 'home',
+      meta: {
+        layout: RootLayout,
+      }
     },
     {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
+      path: '/login',
+      name: 'login',
+      meta: {
+        layout: RootLayout,
+      }
+      // component: () => import('../views/AboutView.vue')
+    },
+    {
+      path: '/signup',
+      name: 'signup',
+      meta: {
+        layout: RootLayout,
+      }
       // component: () => import('../views/AboutView.vue')
     }
 ];
